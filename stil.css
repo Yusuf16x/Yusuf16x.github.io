@@ -1,0 +1,117 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.kutu {
+     max-width: 80%;
+     max-height: 100%;
+     margin: 0 auto 0 3vw;   
+    background-color: #fff;
+}
+
+.ust {
+ 
+    background-color: #fff;
+  
+    
+}
+
+.ust h2 {
+    padding-top: 15px;
+    background-color: #fff;
+}
+
+.orta {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    min-width: 70%;
+    max-height: 100%;
+    background-color: #fff;
+}
+
+.sol {
+    padding-left: 10px;
+    width: 170px;
+    background-color: #fff;
+}
+
+.icerik {
+    
+    max-height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.alt {
+
+     height: 50px;
+    background-color: #fff;
+    font-size: 13px;
+    padding-left: 3px;
+    color: #777676;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+    text-align: center;
+}
+ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+
+
+body {
+    font-family: sans-serif;
+    background: #fff;
+    color: #222;
+    line-height: 1.7;
+}
+.cizgi {
+    padding-bottom: 20px;
+    padding-top: 15px;
+     height: 1px;
+     background-color: hsl(0, 0%, 100%);
+}
+hr {
+    color: #aaa9a9;
+}
+a:hover {
+    color: rgb(50, 145, 235);
+}
+
+.aktif {
+    color: rgb(50, 145, 235);
+}
+.icerik h3 {
+  padding-top: 10px;
+}
+.icerik p {
+  
+    padding-top: 8px;
+}
+.kafes {
+    padding-bottom: 20px;
+}
+.kafes p{
+    padding-bottom: 0px;
+    
+}
+
+.kafes a{
+    padding-bottom: 0px;
+    color: rgb(7, 89, 167);
+}
+
+.kafes a:hover{
+    text-decoration: underline;
+}
+
+.bosluk {
+    padding: 9px;
+}

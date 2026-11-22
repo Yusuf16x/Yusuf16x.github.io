@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="tr">
+   <head>
+    <meta charset="UTF-8">
+    <title>Tüm HTML Etiketleri Kütüphanesi</title>
+   </head>
+   <body>
+    <a href="index.html">⬅ Ana Sayfaya Dön</a>
+    <h1>Tüm HTML Etiketleri Kütüphanesi</h1>
+    <h2>1. Kök ve Üst Veri (Metadata) Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;!DOCTYPE html&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Belgenin HTML5 standartlarında yazıldığını tarayıcıya bildiren kök deklerasyondur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tarayıcının sayfayı standart modda (Standard Mode) hatasız işlemesini sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;html&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Bütün HTML ögelerini kapsayan ana kök etikettir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Sayfanın dil tanımı (lang="tr") gibi genel yapısal sınırlarını belirler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Belgenin üst veri (meta) ve teknik yapılandırma bilgilerini barındırır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Başlık, stil, betik ve SEO kodlarının toplandığı görünmeyen bölümdür.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Web sayfasının sekme başlığını belirler.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tarayıcı sekmelerinde ve arama motoru sonuçlarında başlık olarak görünür.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Karakter seti, yazar, açıklama ve mobil ekran (viewport) uyumluluğu gibi üst bilgileri sunar.</li>
+        <p><li><b>Ne İşe Yarar:</b> SEO performansını ve mobil cihaz uyumluluğunu yönetir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Belge ile harici kaynaklar arasında bağ kurar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Harici CSS dosyalarını, yazı tiplerini ve favicon simgelerini sayfaya bağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfa içi CSS kodlarını barındıran etikettir.</li>
+        <p><li><b>Ne İşe Yarar:</b> HTML ögelerine doğrudan renk, boyut ve düzen stilleri uygular.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> İstemci taraflı betik dillerini (JavaScript) tanımlar veya harici `.js` dosyasını çağırır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Web sayfasına dinamik işlevler ve kullanıcı etkileşimleri kazandırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;noscript&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tarayıcıda JavaScript kapalı olduğunda gösterilecek alternatif içerik alanıdır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Kullanıcıya betik desteğinin kapalı olduğunu bildirir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;base&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfadaki tüm göreceli (relative) URL'ler için temel adresi ve varsayılan hedef pencereyi belirler.</li>
+        <p><li><b>Ne İşe Yarar:</b> Bağlantıların tek bir merkez adresten türetilmesini sağlar.</li></p>
+    </ul>
+    <h2>2. Sayfa Yapısı ve Anlamsal (Semantic) Bölümler</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Kullanıcının ekranda gördüğü tüm içeriklerin yer aldığı ana gövdedir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Görsel metinler, görseller, butonlar ve formların tamamını kapsar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfanın veya bir bölümün üst tanıtım alanıdır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Site logosu, arama çubuğu ve ana başlıkları gruplar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;nav&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Gezinme bağlantılarını (menüleri) barındıran anlamsal etikettir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Arama motorlarına ve ekran okuyuculara ana menüyü bildirir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;main&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfanın benzersiz olan ana gövde içeriğini kapsar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Yan menü ve alt bilgi dışında kalan özgün ana içeriği tanımlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;section&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfa içerisindeki mantıksal bölümleri ve tematik alanları temsil eder.</li>
+        <p><li><b>Ne İşe Yarar:</b> İçerikleri konularına göre bağımsız bloklara ayırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;article&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Kendi başına anlam ifade eden bağımsız içerik bloğudur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Blog yazısı, haber, yorum veya ürün kartı gibi dağıtılabilir içerikleri tanımlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;aside&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Ana içerikle dolaylı ilgili olan yan içerik alandır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Yan menü (sidebar), reklamlar veya ilgili bağlantılar alanını oluşturur.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;footer&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfanın veya bölümün alt bilgi alanıdır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Telif hakları, iletişim bilgileri ve alt menü bağlantılarını barındırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt; - &lt;h6&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Başlıkları önem sırasına göre hiyerarşik olarak derecelendirir (&lt;h1&gt; en önemli başlık).</li>
+        <p><li><b>Ne İşe Yarar:</b> Sayfa düzenini sağlar ve arama motorları için içerik hiyerarşisini kurar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;hgroup&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Başlık ve alt başlık ögelerini bir arada gruplamak için kullanılır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Başlık yapısının anlamsal bütünlüğünü korur.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;address&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> İletişim bilgilerini tanımlayan özel etikettir.</li>
+        <p><li><b>Ne İşe Yarar:</b> E-posta, adres, telefon veya yazar bilgisini anlamsal olarak işaretler.</li></p>
+    </ul>
+    <h2>3. Metin İçeriği ve Biçimlendirme Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Standart metin paragrafı oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Metinleri düzenli bloklara ayırarak okunabilirliği artırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metin içinde alt satıra geçiş (satır sonu) yapar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Yeni bir paragraf açmadan alt satıra atlamayı sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;hr&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Konu değişikliğini gösteren yatay bir ayırıcı çizgi çeker.</li>
+        <p><li><b>Ne İşe Yarar:</b> Sayfa içeriğini görsel ve anlamsal olarak böler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;b&gt; ve &lt;strong&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metni kalın yazar (&lt;strong&gt; anlamsal önem ve vurgu katar).</li>
+        <p><li><b>Ne İşe Yarar:</b> Önemli sözcükleri veya kelimeleri belirginleştirir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;i&gt; ve &lt;em&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metni yatık (italik) yazar (&lt;em&gt; cümleye anlamsal vurgu katar).</li>
+        <p><li><b>Ne İşe Yarar:</b> Yabancı kelimeleri, terimleri veya vurgulu kelimeleri öne çıkarır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;u&gt; ve &lt;s&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metnin altını çizer (&lt;u&gt;) veya üstünü çizer (&lt;s&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> Geçersiz kılınan veya hatalı yazılan metinleri işaretlemek için kullanılır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;mark&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metnin arka planını fosforlu sarı ile vurgular.</li>
+        <p><li><b>Ne İşe Yarar:</b> Arama sonuçlarında eşleşen sözcükleri veya dikkat çekici alanları belirteçle işaretler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;small&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metni daha küçük punto ile gösterir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Telif notları, yasal açıklamalar ve yan uyarıları belirtir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;sub&gt; ve &lt;sup&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Alt simge (&lt;sub&gt;) ve üst simge (&lt;sup&gt;) oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Kimyasal formüllerde (H₂O) veya matematiksel üslü ifadelerde (X²) kullanılır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;abbr&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Kısaltmaları tanımlar (title özniteliği ile tam açılımı sunar).</li>
+        <p><li><b>Ne İşe Yarar:</b> Fareyle üzerine gelindiğinde kısaltmanın açık halini gösterir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;cite&gt; ve &lt;q&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Eser adına referans verir (&lt;cite&gt;) veya kısa tırnak içi alıntı yapar (&lt;q&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> Kitap, film veya alıntı kaynaklarını belirtir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;blockquote&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Başka bir kaynaktan yapılan uzun blok alıntı alanıdır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Metni girintili hale getirerek harici bir alıntı olduğunu vurgular.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;, &lt;pre&gt;, &lt;kbd&gt;, &lt;samp&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Yazılım kod parçacığı (&lt;code&gt;), biçimlendirilmiş metin (&lt;pre&gt;), klavye tuşu (&lt;kbd&gt;) ve sistem çıktısı (&lt;samp&gt;) gösterir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Teknik dokümantasyonlarda kod yapılarını koruyarak sergiler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;time&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tarih ve saat verilerini makine tarafından okunabilir formatta işaretler.</li>
+        <p><li><b>Ne İşe Yarar:</b> Takvim sistemleri ve arama motorları için tarih analizini kolaylaştırır.</li></p>
+    </ul>
+    <h2>4. Liste Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sırasız madde işaretli liste (&lt;ul&gt;), numaralı sıralı liste (&lt;ol&gt;) ve liste elemanıdır (&lt;li&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> İçerikleri maddeler halinde düzenli biçimde gruplar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tanım listesi (&lt;dl&gt;), tanım terimi (&lt;dt&gt;) ve tanım açıklamasıdır (&lt;dd&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> Sözlük veya terim listesi gibi anahtar-değer ikililerini listeler.</li></p>
+    </ul>
+    <h2>5. Bağlantı, Görsel ve Çoklu Ortam (Media) Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Başka bir sayfaya, dosyaya veya adrese bağlantı (köprü/link) oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Web sayfaları arasında gezinmeyi ve dosya indirmeyi sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;img&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfaya görsel (resim/grafik) ekler.</li>
+        <p><li><b>Ne İşe Yarar:</b> JPG, PNG, SVG gibi resim formatlarını görüntüler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;picture&gt; ve &lt;source&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Farklı ekran boyutları veya formatlar için esnek görsel senaryoları sunar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Duyarlı (responsive) tasarımda cihaza göre farklı resim yüklemeyi sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;audio&gt; ve &lt;video&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Ses ve video medya ögelerini doğrudan sayfaya gömer.</li>
+        <p><li><b>Ne İşe Yarar:</b> Harici eklenti olmadan ortam dosyalarını yürütür.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;track&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Medya oynatıcılarına altyazı veya açıklama metinleri ekler.</li>
+        <p><li><b>Ne İşe Yarar:</b> Video ve ses dosyalarına çoklu dil ve altyazı desteği verir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Sayfa içerisine başka bir web belgesini satır içi pencere olarak gömer.</li>
+        <p><li><b>Ne İşe Yarar:</b> YouTube videoları veya Google Haritalar gibi dış içerikleri gösterir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;svg&gt; ve &lt;canvas&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> İki boyutlu vektör grafikleri (&lt;svg&gt;) ve piksel tabanlı betik çizim alanı (&lt;canvas&gt;) sunar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Web üzerinde grafikler, ikonlar, dinamik çizimler ve oyunlar oluşturur.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;map&gt; ve &lt;area&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tıklanabilir alanlara sahip resim haritaları oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tek bir görselin farklı koordinatlarına ayrı linkler bağlar.</li></p>
+    </ul>
+    <h2>6. Form ve Etkileşim Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;form&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Kullanıcıdan veri toplamak için form kapsayıcısı oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Giriş ve kayıt verilerini sunucuya iletir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Metin, şifre, tarih, dosya veya onay kutusu gibi çeşitli veri giriş alanları oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Formlarda kullanıcı girdilerini toplar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Çok satırlı metin giriş alanı sağlar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Mesaj, adres ve uzun yorum girdilerini alır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;button&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tıklanabilir düğmeler oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Form gönderme, sıfırlama veya JavaScript komutlarını tetikler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;select&gt;, &lt;option&gt;, &lt;optgroup&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Seçenek gruplu (&lt;optgroup&gt;) ve öğeli (&lt;option&gt;) açılır seçim kutusu (&lt;select&gt;) oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> Açılır listeden tercih yapılmasını sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Form elemanları için başlık / etiket metni tanımlar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tıklama alanını genişleterek kullanılabilirliği ve erişilebilirliği artırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;fieldset&gt; ve &lt;legend&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> İlgili form elemanlarını çerçeveye alır (&lt;fieldset&gt;) ve gruba başlık ekler (&lt;legend&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> Karmaşık formları görsel olarak gruplara böler.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;datalist&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Giriş alanları (`&lt;input&gt;`) için otomatik tamamlama öneri listesi sunar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Kullanıcı yazarken hazır seçenekler önerir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;progress&gt; ve &lt;meter&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> İşlem ilerleme çubuğu (&lt;progress&gt;) veya ölçek/oran çubuğu (&lt;meter&gt;) çizer.</li>
+        <p><li><b>Ne İşe Yarar:</b> Yükleme durumunu veya disk doluluk oranı gibi ölçümleri görselleştirir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;details&gt; ve &lt;summary&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tıklanınca açılıp kapanan genişletilebilir içerik kutusu oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> SSS (Sıkça Sorulan Sorular) gibi alanlarda yer tasarrufu sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;dialog&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Yerel iletişim kutusu, açılır pencere (modal) veya uyarı penceresi tanımlar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Ekran üzerinde etkileşimli pop-up pencereleri açar.</li></p>
+    </ul>
+    <h2>7. Tablo Etiketleri</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Izgara şeklinde veri tablosu oluşturur.</li>
+        <p><li><b>Ne İşe Yarar:</b> İki boyutlu verileri satır ve sütunlar halinde sunar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tablo satırı (&lt;tr&gt;), tablo başlık hücresi (&lt;th&gt;) ve standart veri hücresidir (&lt;td&gt;).</li>
+        <p><li><b>Ne İşe Yarar:</b> Tablonun içerik yapısını şekillendirir.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tabloyu başlık (&lt;thead&gt;), ana gövde (&lt;tbody&gt;) ve dipnot (&lt;tfoot&gt;) mantıksal alanlarına ayırır.</li>
+        <p><li><b>Ne İşe Yarar:</b> Büyük verili tablolarda gezinmeyi ve stillendirmeyi kolaylaştırır.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;caption&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tabloya başlık veya kısa açıklama ekler.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tablonun ne içerdiğini belirten üst başlığı tanımlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;colgroup&gt; ve &lt;col&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Tablo sütunlarını gruplar ve sütun bazlı stillendirme yapmayı sağlar.</li>
+        <p><li><b>Ne İşe Yarar:</b> Tüm sütuna tek seferde genlik veya renk stili uygulamayı kolaylaştırır.</li></p>
+    </ul>
+    <h2>8. Genel Düzen ve Kapsayıcı Etiketler</h2>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Blok düzeyinde (block-level) genel kapsayıcı ögedir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Sayfa düzeni (layout) oluştururken ögeleri gruplamayı ve CSS/JS uygulamayı sağlar.</li></p>
+    </ul>
+    <p><h3>&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&gt;</h3></p>
+    <ul>
+        <li><b>Tanımı:</b> Satır içi (inline) genel kapsayıcı ögedir.</li>
+        <p><li><b>Ne İşe Yarar:</b> Metin içindeki belirli kelime veya harf gruplarına özel biçimlendirme sunar.</li></p>
+    </ul>
+   </body>
+</html>

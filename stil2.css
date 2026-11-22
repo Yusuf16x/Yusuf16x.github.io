@@ -1,0 +1,94 @@
+.kutu {
+    height: 100px;
+    width: 100%;
+}
+
+.kutu2 {
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.kutu3 {
+    height: 50px;
+    width: 100%;
+}
+
+.kutu4 {
+    height: 100px;
+    width: 100%;
+}
+
+.butonlar {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.kutu5 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgb(83, 152, 255);
+    height: 65px;
+    width: 17%;
+}
+
+.kutu6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     border-radius: 7px;
+    background-color: rgb(83, 152, 255);
+    height: 65px;
+    width: 17%;
+}
+
+.kutu7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     border-radius: 7px;
+    background-color: rgb(83, 152, 255);
+    height: 65px;
+    width: 17%;
+}
+
+.kutu8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     border-radius: 7px;
+    background-color: rgb(83, 152, 255);
+    height: 65px;
+    width: 17%;
+}
+.kutu5:hover {
+    background-color: rgb(34, 34, 255);
+
+}
+.kutu6:hover {
+    background-color: rgb(34, 34, 255);
+
+}
+.kutu7:hover {
+    background-color: rgb(34, 34, 255);
+
+}
+.kutu8:hover {
+    background-color: rgb(34, 34, 255);
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
